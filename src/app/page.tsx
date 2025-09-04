@@ -1,22 +1,19 @@
 "use client";
 
-import SceneCanvas from "@/components/SceneCanvas";
+import Lab from "@/components/Lab";
 
 export default function Page() {
   return (
     <main className="mx-auto max-w-5xl p-8 space-y-6">
       <header>
         <h1 className="text-2xl font-semibold">FormLab</h1>
-        <p className="text-muted-foreground">
-          Minimal v0 — a cube you can orbit.
-        </p>
+        <p className="text-muted-foreground">Randomize to a fresh sketch angle.</p>
       </header>
 
-      <SceneCanvas />
+      <Lab />
     </main>
   );
 }
-
 
 
 // export default function Home() {
